@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    background-color: #ffff;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+ ul li {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+}
+
+ul li a {
+    padding: 14px 30px;
+    text-decoration: none;
+    color: #4F4A45;
+    font-size: 19px;
+    font-family: 'Amiko', sans-serif;
+}
+
+section {
+    display: block;
+    height: 100vh;
+}
+
+.mainImage {
+    height: 50%;
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 100px;
+}
+
+.me{
+    position: relative;
+    top: 200px;
+    left: 100px;   
+}
+
+.me, h1 h4 {
+    color: #495E57;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+}
+
+.header1 {
+    font-size: 30px;
+    font-family: 'Amiko', sans-serif;
+    color: #495E57;
+    padding-top: 80px;
+}
+
+.aboutImage {
+    height: 19pc;
+    float: inline-start;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+}
+
+.info {
+    background-color: #579BB1;
+    padding: 100px;
+    margin: 40px;
+    border: 2px solid #579BB1;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px grey;  
+}
+
+.text, span {
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 100;
+}
+.text {
+    color: #F6F4EB;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.skillsheader {
+    font-size: 30px;
+    font-family: 'Amiko', sans-serif;
+    color: #495E57;
+    padding-top: 80px;
+}
+
+.container {
+    padding: 100px;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: #91C8E4;
+}
+
+.myskills {
+    height: 15pc;
+    padding: 0;
+    position: relative;
+    float: right;
+
+}
+
+.app {
+    position: relative;
+    bottom: 60px;
+    display: inline-flex;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #D2E9E9;
+}
+
+.app i {
+    font-size: 60px;
+}
+
+
+
+
+
+footer {
+    padding: 5px;
+    background-color: #0c3f4e;
+}
+
+.socials i{
+    padding: 20px;
+    font-size: 25px;
+}
