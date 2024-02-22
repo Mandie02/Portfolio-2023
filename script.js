@@ -1,12 +1,12 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+    const myName = document.getElementsByClassName("myname")[0];
+    const paragraph = document.getElementsByClassName("dev")[0];
+    const text1 = 'Hello, I am Mandie Limbaga!';
+    const text2 = "Front-End Web Developer from Philippines.";
 
-const myName = document.getElementsByClassName("myname")[0];
-const paragraph = document.getElementsByClassName("dev")[0];
-const text1 = 'Hello, I am Mandie Limbaga!';
-const text2 = "Front-End Web Developer from Philippines.";
-
-const textTypeWriter = (element, text, i = 0) => {
-    element.textContent = text.substring(0, i +1);
+    const textTypeWriter = (element, text, i = 0) => {
+        element.textContent += text[i];
 
     if(i === text.length - 1){
         return;
@@ -17,3 +17,4 @@ const textTypeWriter = (element, text, i = 0) => {
 
 textTypeWriter(myName, text1);
 textTypeWriter(paragraph, text2);
+})
