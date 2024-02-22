@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => textTypeWriter(element, text, i + 1), 50);
     }
 
-textTypeWriter(myName, text1);
-textTypeWriter(paragraph, text2);
+    textTypeWriter(myName, text1);
+    textTypeWriter(paragraph, text2);
 });
