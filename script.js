@@ -6,7 +6,7 @@ const text1 = 'Hello, I am Mandie Limbaga!';
 const text2 = "Front-End Web Developer from Philippines.";
 
 const textTypeWriter = (element, text, i = 0) => {
-    element.textContent = text.substring(9, i +1);
+    element.textContent = text.substring(0, i +1);
 
     if(i === text.length - 1){
         return;
