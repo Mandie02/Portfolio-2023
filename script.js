@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    const myName = document.getElementsByClassName("myname")[0];
-    const paragraph = document.getElementsByClassName("dev")[0];
+    const myName = document.getElementsByClassName("myname");
+    const paragraph = document.getElementsByClassName("dev");
     const text1 = 'Hello, I am Mandie Limbaga!';
     const text2 = "Front-End Web Developer from Philippines.";
 
