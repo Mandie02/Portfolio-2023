@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    setTimeout(() => textTypeWriter(element, text, i , + 1), 50);
+    setTimeout(() => textTypeWriter(element, text, i + 1), 50);
 }
 
 textTypeWriter(myName, text1);
