@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    const myName = document.getElementsByClassName("myname");
-    const paragraph = document.getElementsByClassName("dev");
+    const myName = document.querySelector(".myname");
+    const paragraph = document.querySelector(".dev");
     const text1 = 'Hello, I am Mandie Limbaga!';
     const text2 = "Front-End Web Developer from Philippines.";
 
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     setTimeout(() => textTypeWriter(element, text, i + 1), 50);
-}
+    }
 
 textTypeWriter(myName, text1);
 textTypeWriter(paragraph, text2);
