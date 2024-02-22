@@ -17,4 +17,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 textTypeWriter(myName, text1);
 textTypeWriter(paragraph, text2);
-})
+});
