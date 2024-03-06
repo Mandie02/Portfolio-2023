@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    setTimeout(() => typeWritterEffect(element, text, i + 1), 50);
+    setTimeout(() => typeWritterEffect(element, text, i + 1), 60);
     }
 
     typeWritterEffect(myName, text1);
