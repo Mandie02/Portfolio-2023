@@ -17,4 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     typeWritterEffect(myName, text1);
     typeWritterEffect(paragraph, text2);
+
+    const aboutBtn = document.querySelector(".about");
+    const MandieName = document.getElementsByClassName("mandie");
+
+    aboutBtn.addEventListener('click', () => {
+
+        let nameText = "Mandie";
+        typeWritterEffect(MandieName, nameText);
+    })
 });
